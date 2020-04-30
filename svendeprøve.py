@@ -18,10 +18,10 @@ while taller == 1:
     splidsninger=int(input('Indstast antal splidsninger'))
     Konnektor=int(input('Indtast antal konnektor'))
     samlet_tab1310=transcive-splidsning-konnektor-(tab1310nm*km1)
-    print("Tab ved 1310nm",samlet_tab1310-1.8,"dB")
+    print("Tab ved 1310nm",samlet_tab1310,"dB")
     netto_overskud=samlet_tab1310-sikkerhedsmargin-reparationer
     pris_ialt=pris1310*km1
-    print('Netto overskud', netto_overskud-1.8, 'dB')
+    print('Netto overskud', netto_overskud, 'dB')
     print('Pris for 1310 ialt:', pris_ialt, 'Kr.')
     print('')
     taller = int(input('tryk 1 for 1310nm eller 2 for 1550nm'))
@@ -34,10 +34,10 @@ while taller == 2:
     splidsninger=int(input('Indstast antal splidsninger'))
     konnektor2=int(input('Indtast antal konnektor'))
     samlet_tab1550=transcive2-splidsning-konnektor2-tab1550nm*km
-    print("Tab ved 1550nm",samlet_tab1550-1.3,"dB")
+    print("Tab ved 1550nm",samlet_tab1550,"dB")
     netto_overskud2=samlet_tab1550-sikkerhedsmargin-reparationer
     fiberpris=pris1550*km
-    print('Netto overskud', netto_overskud2-1.3, 'dB')
+    print('Netto overskud', netto_overskud2, 'dB')
     print("1550nm Fiber pris ialt:",fiberpris,'Kr.')
     print('')
     taller = int(input('tryk 1 for 1310nm eller 2 for 1550nm'))
